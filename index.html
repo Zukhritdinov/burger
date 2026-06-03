@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food Burgers - Instant Taste, Ultimate Quality</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- Google Fonts: Outfit (Headings) and Inter (Body Text) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome CDN for modern icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="./image/logo.png" alt="Fast Food Logo">
+            </a>
+
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#features">PAGES</a></li>
+                <li><a href="#offers">OUR OFFER</a></li>
+                <li><a href="#about">PRICING</a></li>
+                <li><a href="#footer">SHOP</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#" class="nav-icon" id="search-btn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#" class="nav-icon" id="cart-btn" aria-label="Cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-badge">3</span>
+                </a>
+                <button class="btn btn-nav">ORDER NOW</button>
+            </div>
+            
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Header -->
+    <header class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-container">
+            <div class="header_text">
+                <p class="header_text_p">FAST FOOD BURGERS</p>
+                <h1 class="header_text_h1">The fastest food, for instant hunger.</h1>
+                <p class="header_text_p2">Some food has looked so awful that it's looked like something that the dog's brought home,
+                    yet after one mouthful I've been left eating my thoughts, my words & my food and gone back for seconds.
+                </p>
+                <div class="hero_buttons">
+                    <button class="btn btn-primary">ORDER NOW</button>
+                    <button class="btn btn-secondary">VIEW MENU</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-tagline">WHY CHOOSE US</p>
+                    <h2 class="section-title">Our Best Features</h2>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-truck-ramp-box"></i>
+                        </div>
+                        <h3>30 Min Delivery</h3>
+                        <p>If we don't deliver your fresh burger to your doorstep in 30 minutes, it's completely free of charge.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-seedling"></i>
+                        </div>
+                        <h3>Fresh Ingredients</h3>
+                        <p>100% grass-fed organic beef, daily baked brioche buns, and crisp hand-picked vegetables.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-utensils"></i>
+                        </div>
+                        <h3>Premium Quality</h3>
+                        <p>Prepared by expert culinary chefs who blend taste, hygiene, and perfection in every bite.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Offers Section -->
+        <section id="offers" class="offers-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-tagline">SPECIAL SELECTION</p>
+                    <h2 class="section-title">Our Mouth-Watering Offers</h2>
+                </div>
+                <div class="offers-grid">
+                    <!-- Offer Card 1 -->
+                    <div class="offer-card">
+                        <div class="card-img-wrapper">
+                            <img src="./image/card1.png" alt="Classic Beef Burger">
+                            <span class="price-tag">$8.99</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(5.0)</span>
+                            </div>
+                            <h3>Classic Beef Burger</h3>
+                            <p>Double grilled beef patty, melted cheddar cheese, fresh tomato, pickles, and our signature sauce.</p>
+                            <button class="btn-card">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+                    <!-- Offer Card 2 -->
+                    <div class="offer-card">
+                        <div class="card-img-wrapper">
+                            <img src="./image/card2.png" alt="Crispy Chicken Burger">
+                            <span class="price-tag">$7.99</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.8)</span>
+                            </div>
+                            <h3>Crispy Chicken Burger</h3>
+                            <p>Golden crispy chicken breast fillet, fresh shredded lettuce, pickles, and garlic herb mayo.</p>
+                            <button class="btn-card">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+                    <!-- Offer Card 3 -->
+                    <div class="offer-card">
+                        <div class="card-img-wrapper">
+                            <img src="./image/card3.png" alt="Premium Combo Box">
+                            <span class="price-tag">$14.99</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                            <h3>Premium Combo Box</h3>
+                            <p>Double burger served with golden crispy french fries, choice of drink, and 4pcs crunchy onion rings.</p>
+                            <button class="btn-card">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+                    <!-- Offer Card 4 -->
+                    <div class="offer-card">
+                        <div class="card-img-wrapper">
+                            <img src="./image/card4.png" alt="Spicy Jalapeno Burger">
+                            <span class="price-tag">$9.49</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>(4.7)</span>
+                            </div>
+                            <h3>Spicy Jalapeno Burger</h3>
+                            <p>Spicy beef patty topped with fire-roasted jalapenos, pepper jack cheese, and spicy chipotle sauce.</p>
+                            <button class="btn-card">Add to Cart <i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="about-section">
+            <div class="container about-container">
+                <div class="about-image-wrapper">
+                    <img src="./image/burger_img.png" alt="Special Burger Image" class="floating-burger">
+                </div>
+                <div class="about-content">
+                    <p class="section-tagline">OUR STORY</p>
+                    <h2 class="about-title">We Craft Every Burger With Love & Passion</h2>
+                    <p class="about-desc">
+                        Our journey began with a simple idea: fast food doesn't mean low quality. Every single day, we work with local farmers to get the freshest produce, bake our signature brioche buns in the morning, and grind premium beef cuts for the perfect patty.
+                    </p>
+                    <ul class="about-features-list">
+                        <li><i class="fa-solid fa-circle-check"></i> 100% Organic Grass-Fed Beef</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Baked Fresh Brioche Buns Daily</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Custom Secret Signature Sauces</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Free Fast Delivery Service</li>
+                    </ul>
+                    <button class="btn btn-primary">LEARN MORE</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="footer" class="footer">
+        <div class="container footer-container">
+            <div class="footer-col col-brand">
+                <a href="#" class="footer-logo">
+                    <img src="./image/logo.png" alt="Fast Food Logo">
+                </a>
+                <p class="footer-about-text">
+                    Bringing you the finest, juiciest burgers crafted from organic ingredients. The perfect meal for your instant cravings.
+                </p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#features">Our Features</a></li>
+                    <li><a href="#offers">Our Offers</a></li>
+                    <li><a href="#about">About Our Kitchen</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Opening Hours</h3>
+                <ul class="footer-hours">
+                    <li><span>Monday - Friday</span> <span>09:00 - 23:00</span></li>
+                    <li><span>Saturday</span> <span>10:00 - 00:00</span></li>
+                    <li><span>Sunday</span> <span>10:00 - 23:00</span></li>
+                    <li><span>Holidays</span> <span>Closed</span></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col col-contact">
+                <h3>Contact Us</h3>
+                <ul class="footer-contact-info">
+                    <li><i class="fa-solid fa-phone"></i> +998 (90) 123-4567</li>
+                    <li><i class="fa-solid fa-envelope"></i> info@fastfoodburger.com</li>
+                    <li><i class="fa-solid fa-location-dot"></i> 45 Tashkent St, Uzbekistan</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p>&copy; 2026 Fast Food Burgers. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Navigation Toggle Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navbar = document.querySelector('.navbar');
+
+            menuToggle.addEventListener('click', () => {
+                navbar.classList.toggle('active');
+                menuToggle.querySelector('i').classList.toggle('fa-bars-staggered');
+                menuToggle.querySelector('i').classList.toggle('fa-xmark');
+            });
+
+            // Close mobile menu on link click
+            document.querySelectorAll('.navbar a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navbar.classList.remove('active');
+                    const icon = menuToggle.querySelector('i');
+                    icon.classList.add('fa-bars-staggered');
+                    icon.classList.remove('fa-xmark');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
